@@ -54,8 +54,8 @@ const Header = () => {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             {userData ? (
               <div className="flex flex-row gap-3">
-                {userData?.name?.title === "Mrs" && <Mrs />}
-                {userData?.name?.title === "Mr" && <Mr />}
+                {/* {userData?.name?.title === "Mrs" && <Mrs />}
+                {userData?.name?.title === "Mr" && <Mr />} */}
                 <div className="text-sm font-semibold leading-6 text-gray-900">
                   {userData?.name?.title} {userData?.name?.first}{" "}
                   {userData?.name?.last}
